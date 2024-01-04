@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
 		color: #43B3E0;
-		text-decoration: underline;
+		/* text-decoration: underline; */
 	}
 
 		a:hover {
@@ -1692,6 +1692,13 @@ input, select, textarea {
 		max-width: 24em;
 	}
 
+		.button.download {
+			background-color: #888888;
+			font-weight: 600;
+			padding: 0.3em 1.5em 0.3em 1.5em;
+			align-self: center;
+		}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -1919,11 +1926,16 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			text-align: left;
 		}
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
+
+		.box.style2{
+			text-align: left;
+		}
 
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
